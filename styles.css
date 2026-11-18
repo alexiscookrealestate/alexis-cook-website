@@ -876,3 +876,7 @@ footer .call-link:hover span,.contact .call-link:hover span{color:inherit;text-d
 .lx-l{border-left:1px solid rgba(255,255,255,.6)!important}
 .lx-l:last-child{border-right:1px solid rgba(255,255,255,.6)!important}
 @media (max-width:820px){.lx-l{border-left:0!important;border-right:0!important;border-bottom:1px solid rgba(255,255,255,.55)!important}.lx-l:last-child{border-bottom:0!important}}
+/* Only inner dividers; content centered in each column */
+.lx-l:first-child{border-left:0!important}
+.lx-l:last-child{border-right:0!important}
+@media (min-width:821px){.lx-l{align-items:center;text-align:center}.lx-a{align-self:center}}
