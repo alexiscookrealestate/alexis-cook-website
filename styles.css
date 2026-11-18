@@ -888,3 +888,9 @@ footer .call-link:hover span,.contact .call-link:hover span{color:inherit;text-d
 .lx-cp img{object-position:center 20%}
 .lx-ct{padding:0!important}
 @media (max-width:820px){.lx-close{grid-template-columns:1fr!important;padding:56px 24px 64px;gap:32px}.lx-cp{width:100%;max-width:280px;margin:0 auto}}
+/* Smaller, tighter review */
+.quote-band{padding-block:64px!important}
+.quote-band .wrap{max-width:820px!important;padding:48px 40px!important;gap:14px!important}
+.quote-band blockquote{font-size:clamp(20px,2vw,26px)!important;max-width:40ch!important;line-height:1.4!important}
+.quote-band .stars{font-size:14px!important}
+@media (max-width:820px){.quote-band{padding-block:40px!important}.quote-band .wrap{padding:36px 22px!important}.quote-band blockquote{font-size:20px!important}}
