@@ -819,3 +819,11 @@ footer .call-link:hover span,.contact .call-link:hover span{color:inherit;text-d
 }
 /* Photo style D: softly rounded corners with a light shadow */
 .meet-photo,.closer-photo,.about-photo{border-radius:18px!important;box-shadow:0 20px 50px rgba(15,25,40,.12)}
+/* Shorter hero so Alexis's photo shows without scrolling; heading moved above Buying/Selling */
+.hx-video{min-height:min(62vh,600px)}
+.hx-video .hx-text{padding-block:118px 104px}
+.meet{padding-top:40px}
+.moved-head{padding:8px 0 40px}
+.moved-head .meet-head{margin:0 auto}
+.moved-head .meet-intro{margin:0 auto}
+@media (max-width:900px){.hx-video{min-height:0}.hx-video .hx-text{padding-block:104px 84px}.meet{padding-top:24px}.moved-head{padding:8px 0 28px}}
