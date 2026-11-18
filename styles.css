@@ -882,3 +882,9 @@ footer .call-link:hover span,.contact .call-link:hover span{color:inherit;text-d
 @media (min-width:821px){.lx-l{align-items:center;text-align:center}.lx-a{align-self:center}}
 /* Three equal full-width columns */
 .lx-wrap{max-width:none!important;width:100%}
+/* Closer: smaller rounded photo (same as above), no rule */
+.lx-close{grid-template-columns:minmax(0,420px) minmax(0,1fr)!important;max-width:1120px;margin:0 auto;padding:96px 40px;gap:72px;min-height:0!important;align-items:center}
+.lx-cp{aspect-ratio:4/5;border-radius:18px;box-shadow:0 20px 50px rgba(15,25,40,.12)}
+.lx-cp img{object-position:center 20%}
+.lx-ct{padding:0!important}
+@media (max-width:820px){.lx-close{grid-template-columns:1fr!important;padding:56px 24px 64px;gap:32px}.lx-cp{width:100%;max-width:280px;margin:0 auto}}
