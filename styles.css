@@ -880,3 +880,5 @@ footer .call-link:hover span,.contact .call-link:hover span{color:inherit;text-d
 .lx-l:first-child{border-left:0!important}
 .lx-l:last-child{border-right:0!important}
 @media (min-width:821px){.lx-l{align-items:center;text-align:center}.lx-a{align-self:center}}
+/* Three equal full-width columns */
+.lx-wrap{max-width:none!important;width:100%}
